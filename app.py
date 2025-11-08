@@ -11,7 +11,7 @@ st.write("Enter a news headline/article or upload an image. The AI will:\n"
          "3️⃣ Explain the reasoning (truth check).")
 
 # 🔑 Gemini API key
-API_KEY = "AIzaSyByTqiqKsFxH0zWMX3Q6gdYR1CE5pgIi0w"   # replace with your key
+API_KEY = "AIzaSyD8mmTfn6sjqPgdkp3S-gNjzTI3jiarrhs"   # replace with your key
 genai.configure(api_key=API_KEY)
 
 user_input = st.text_area("Enter News Headline or Article", "", height=150, key="news_input")
