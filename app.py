@@ -40,7 +40,7 @@ def analyze_news(text, image_file):
             })
 
         # Use Gemini SDK
-        model = genai.GenerativeModel("gemini-1.5-flash-latest")    # ✅ correct model name
+        model = genai.GenerativeModel("gemini-1.5-pro-latest")    # ✅ correct model name
         response = model.generate_content(parts)
 
         full_text = response.text
